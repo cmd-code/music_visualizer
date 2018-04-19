@@ -610,7 +610,7 @@ function drawSongs1up() {
 			console.log(selectedSong);
 			d3.select('#audioElement').attr('src',selectedSong);
 			audioElement.play();
-            audioElement.volume = .02;
+            audioElement.volume = .07;
 			d3.selectAll('.toggle').remove()
 			d3.selectAll('.nowplaying').remove()
 			d3.selectAll('.progressbar').remove()
@@ -656,7 +656,7 @@ function drawSongs1down() {
 			console.log(selectedSong);
 			d3.select('#audioElement').attr('src',selectedSong);
 			audioElement.play();
-            audioElement.volume = .02;
+            audioElement.volume = .07;
 			d3.selectAll('.toggle').remove()
 			d3.selectAll('.nowplaying').remove()
 			d3.selectAll('.progressbar').remove()
@@ -701,7 +701,7 @@ function drawSongs2up() {
 			console.log(selectedSong);
 			d3.select('#audioElement').attr('src',selectedSong);
 			audioElement.play();
-            audioElement.volume = .02;
+            audioElement.volume = .07;
 			d3.selectAll('.toggle').remove()
 			d3.selectAll('.nowplaying').remove()
 			d3.selectAll('.progressbar').remove()
@@ -752,7 +752,7 @@ function drawSongs2down() {
 			console.log(selectedSong);
 			d3.select('#audioElement').attr('src',selectedSong);
 			audioElement.play();
-            audioElement.volume = .02;
+            audioElement.volume = .07;
 			d3.selectAll('.toggle').remove()
 			d3.selectAll('.nowplaying').remove()
 			d3.selectAll('.progressbar').remove()
@@ -797,7 +797,7 @@ function drawSongs3up() {
 			console.log(selectedSong);
 			d3.select('#audioElement').attr('src',selectedSong);
 			audioElement.play();
-            audioElement.volume = .02;
+            audioElement.volume = .07;
 			d3.selectAll('.toggle').remove()
 			d3.selectAll('.nowplaying').remove()
 			d3.selectAll('.progressbar').remove()
@@ -842,7 +842,7 @@ function drawSongs3down() {
 			console.log(selectedSong);
 			d3.select('#audioElement').attr('src',selectedSong);
 			audioElement.play();
-            audioElement.volume = .02;
+            audioElement.volume = .07;
 			d3.selectAll('.toggle').remove()
 			d3.selectAll('.nowplaying').remove()
 			d3.selectAll('.progressbar').remove()
@@ -887,7 +887,7 @@ function drawSongs4up() {
 			console.log(selectedSong);
 			d3.select('#audioElement').attr('src',selectedSong);
 			audioElement.play();
-            audioElement.volume = .02;
+            audioElement.volume = .07;
 			d3.selectAll('.toggle').remove()
 			d3.selectAll('.nowplaying').remove()
 			d3.selectAll('.progressbar').remove()
@@ -932,7 +932,7 @@ function drawSongs4down() {
 			selectedDuration = d[3] * 1000;
 			d3.select('#audioElement').attr('src',selectedSong);
 			audioElement.play();
-            audioElement.volume = .02;
+            audioElement.volume = .07;
 			d3.selectAll('.toggle').remove()
 			d3.selectAll('.nowplaying').remove()
 			d3.selectAll('.progressbar').remove()
@@ -978,7 +978,7 @@ function drawSongs5up() {
 			selectedDuration = d[3] * 1000;
 			d3.select('#audioElement').attr('src',selectedSong);
 			audioElement.play();
-            audioElement.volume = .02;
+            audioElement.volume = .07;
 			d3.selectAll('.toggle').remove()
 			d3.selectAll('.nowplaying').remove()
 			d3.selectAll('.progressbar').remove()
@@ -1023,7 +1023,7 @@ function drawSongs5down() {
 			console.log(selectedSong);
 			d3.select('#audioElement').attr('src',selectedSong);
 			audioElement.play();
-            audioElement.volume = .02;
+            audioElement.volume = .07;
 			d3.selectAll('.toggle').remove()
 			d3.selectAll('.nowplaying').remove()
 			d3.selectAll('.progressbar').remove()
@@ -1068,7 +1068,7 @@ function drawSongs6up() {
 			console.log(selectedSong);
 			d3.select('#audioElement').attr('src',selectedSong);
 			audioElement.play();
-            audioElement.volume = .02;
+            audioElement.volume = .07;
 			d3.selectAll('.toggle').remove()
 			d3.selectAll('.nowplaying').remove()
 			d3.selectAll('.progressbar').remove()
@@ -1113,7 +1113,7 @@ function drawSongs6down() {
 			console.log(selectedSong);
 			d3.select('#audioElement').attr('src',selectedSong);
 			audioElement.play();
-            audioElement.volume = .02;
+            audioElement.volume = .07;
 			d3.selectAll('.toggle').remove()
 			d3.selectAll('.nowplaying').remove()
 			d3.selectAll('.progressbar').remove()
